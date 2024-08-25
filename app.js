@@ -31,7 +31,7 @@ app.use(cookieParser());
 
 // Database Connection
 mongoose
-  .connect("mongodb://localhost:27017/test")
+  .connect("mongodb+srv://ghanshyamkushwah623:579tpJQnWw528A9p@cluster0.fi6v6lj.mongodb.net/realstate")
   .then(() => {
     console.log("MongoDB connected...");
 
